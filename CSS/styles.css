@@ -1,5 +1,11 @@
-h1{
- backgrround-color:red;
+.ham{
+  width: 20px;
+  height: 10px;
+}
+header{
+  background-color: aqua;
+  position: fixed;
+  width: 100%;
 }
 /*
 checking checkingb
