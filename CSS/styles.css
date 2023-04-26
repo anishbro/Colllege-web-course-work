@@ -1,17 +1,46 @@
+/*the three horizontal lines*/
 .ham{
   width: 20px;
   height: 10px;
+ /* float: right; /* takes the element as far to the left or right */
+  padding-right: 20px;
 }
 header{
   background-color: aqua;
-  position: fixed;
   width: 100%;
+  height:100px;
+ /*position: fixed;*/
 }
-/*
-checking checkingb
-rfuj
-*/
-/*
-sujal dai
-
-*/
+nav{
+  margin-left: 10%;
+  margin-top: 20px;
+}
+.searchbar_sec{
+  background-color: chocolate;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  /*margin-top: 5px;*/
+}
+#frontimage_cam{
+  background-color: blueviolet;
+  float: right;
+  width: 75%;
+  height: 450px;
+  margin-top: 150px;
+  margin-left: 30%;
+ /* position: fixed;*/
+}
+#filter_home{
+  background-color: black;
+  width: 100%;
+  height: 30px;
+  margin-top: 800px;
+ /* position: fixed;*/
+}
+footer{
+  background-color: dodgerblue;
+  margin-top: 40px;
+  width: 100%;
+  height: 100px;
+}
