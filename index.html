@@ -1,37 +1,82 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/styles.css">
-    <title>Our group is lit</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>mainpage</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-    <header>  
-        <nav>
-                <a href="/index.html">Home</a>
-                <a href="/HTML/shop.html">Shop</a>
-                <a href="/HTML/about.html">About</a>
-                <a href="/HTML/services.html">Services</a>
-                <a href="/HTML/blog.html">Blog</a>
-                <a href=""></a>
-        </nav>
-       <!-- <img class="ham" src="/Images/hamburger1.png" alt="Menu Three Horizontal line symbols">-->
-    </header>
-    <div class="searchbar_sec">
-        ALL CATEGORIES HAMBURGER AND DROPDOWN MENU
-        searchbar
-        contactnumber
+  <script src="script.js"></script>
+  <!-------top heading  ------->
+  <div class="header">
+    <nav>
+      <a href="">Home</a>
+      <a href="">Shop</a>
+      <a href="">About</a>
+      <a href="">Contact</a>
+      <a href="">Blog</a>
+    </nav>
+    <!------image at heading    ------->
+    <a href="account.html"><img src="cartpic.png" class="cartpic" alt="cartpic" /></a>
+    <img src="heart.png" class="liked" alt="likeditem" />
+    <img src="user.png" class="user" alt="account" />
+    <!---------search bar below heading --------->
+    <div class="searchbar">
+      <form id="search">
+        <input type="search" name="search" placeholder="Search for products" />
+        <!------All Categories ------>
+      </form>
+      <div class="allcat">
+        <img src="hamburger.png" class="ham" alt="hamburger" />
+        <h5 id="cat1">ALL CATEGORIES</h5>
+      </div>
     </div>
-    <div id="frontimage_cam">
-       image of camera kind of and little bit of text
-       your images should change as user changes
+  </div>
+  <!----------adding image at the front page --------->
+  <div class="frontimg">
+    <img src="frontpageim.jpg" class="first" alt="partscollection" />
+  </div>
+  <!----------third kindof search heading  ------->
+  <div class="searchby">
+   <p>SEARCH BY CAMERA</p>
+    <!------   drop down option to select  orfiler kinda            ---->
+    <div class="selectbydopdown">
+    <form>
+      <select name="SelectItem">
+        <option value="item1">Item1</option>
+        <option value="item2">Item2</option>
+        <option value="item3">Item3</option>
+        <option value="item4">Item4</option>
+    </form>
+    
+     <form>
+      <select name="SelectBrand">
+        <option value="brand1">Brand1</option>
+        <option value="brand2">Brand2</option>
+        <option value="brand3">Brand3</option>
+        <option value="brand4">Brand4</option>
+    </form>
+     <!--
+     <form>
+      <select name="SelectType">
+        <option value="brand1">Brand1</option>
+        <option value="brand2">Brand2</option>
+        <option value="brand3">Brand3</option>
+        <option value="brand4">Brand4</option>
+    </form>
+      <form>
+      <select name="SelectModel">
+        <option value="brand1">Brand1</option>
+        <option value="brand2">Brand2</option>
+        <option value="brand3">Brand3</option>
+        <option value="brand4">Brand4</option>
+    </form>
+    -->
     </div>
-    <div id="filter_home">
-        what you wanna say
-    </div>
-    <footer id="footer_home">
-    change
-    </footer>
+  </div>
 </body>
+
 </html>
