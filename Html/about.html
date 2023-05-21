@@ -1,8 +1,140 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>.....</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Our Team Section</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
   <body>
-    <h1></h1>
+    <section>
+      <div class="row">
+        <h1>Our Team</h1>
+      </div>
+      <div class="row">
+        <!-- Column 1 utsav section-->
+        <div onclick="utsavPortfolio()" class="column">
+          <div class="card">
+            <div class="img-container">
+              <img src="profile-img-1.png" />
+            </div>
+            <h3>Utsab Poudel</h3>
+            <p>STUDENT</p>
+            <p>STUDYING IN ITAHARI INTERNATIONAL COLLEGE WITH A DERGREE OF BSC HONS COMPUTING.I AM IN LOVE WITH COMPUTERS AND TECHNOLOGY.</p>
+            <!-- starting of icon -->
+            <div class="icons">
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+            <!---end of icon --->
+          </div> 
+        </div><!--  column 1 container , everything containes here of a certain team->
+        </div>
+        <!-- Column 2  ayush shah sectionb-->
+        <div onclick="ayushPortfolio()" class="column">
+          <div class="card">
+            <div class="img-container">
+              <img src="profile-img-2.png" />
+            </div>
+            <h3>Ayush Shah</h3>
+            <p>student</p>
+            <p>STUDYING IN ITAHARI INTERNATIONAL COLLEGE WITH A DEGREE OF BSC HONS COMPUTING.I LIKE TO CRACK MY HEAD ON PROBLEMS. </p>
+            <div class="icons">
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="mailto:ayushshah259@gmail.com">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+           
+          </div>
+        </div>
+        <!--who is this sujal section-->
+        <div onclick="sujalPortfolio()" class="column">
+          <div class="card">
+            <div class="img-container">
+              <img src="sujal.jpg" height="115px" width="80px"/>
+            </div>
+            <h3>Sujal Rai</h3>
+            <p>Student</p>
+            <p>Studing in ITAHARI INTERNATIONAL COLLEGE WITH A DEGREE OF BSC HONS COMPUTING.I LOVE TO PLAY GAMES AND WATCH ANIME.</p>     
+            <div class="icons">
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/siiiiiuuuu">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="mailto:sujalrai319@gmail.com">
+                <i class="fas fa-envelope"></i>
+              </a>
+              
+            </div>
+            
+         
+          
+          </div>
+        </div>
+        <!-- Column 3 anish section-->
+        <div onclick="anishPortfolio()" class="column">
+          <div class="card">
+            <div class="img-container">
+              <img src="anish.jpg" height="115px" width="80px"/>
+            </div>
+            <h3>Anish Chaudhary</h3>
+            <p>Student</p>
+            <p>Studying in Itahari International College with a degree of Bsc hons Computing.I love to roam around problems.</p>
+            
+            <div class="icons">
+              <a href="https://twitter.com/AnishChaud81954">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/anish-chaudhary-91169b272/">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/anishbro">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="mailto:anishbro501625@gmail.com">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <input onclick="window.location.href = 'feedback.html';" type="button" value="Send feedback" />
+    </section>
+    
   </body>
 </html>
