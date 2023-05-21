@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Our Team Section</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="feedback.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <section>
+      <div class="row">
+        <h1>Feedback Form</h1>
+      </div>
+      <div class="row">
+        
+        <div class="column">
+          <div class="card">
+            <!--we made the changes over here -->
+            <form>
+              <p>Your suggestion</p>
+              <input type="text" name="text" width="100px" size="30" maxlength="150" required="required"/>
+              <p>What problem are you trying to solve with this suggestion?</p>
+              <input type="text" name="text" size="30" maxlength="150" required="required"/>
+              <p>Are you currently using a workaround?</p>
+              <input type="text" name="text" size="30" maxlength="150" required="required"/>
+              <p>Is there anything else you think we should know?</p>
+              
+              <input type="text" name="text" size="30" maxlength="150" required="required"/>
+                      
+               <p>How likely would you like to recommend our camera shop to your friend?</p>   
+               <div class="selectbox">
+              <select name="rate" size="3" required>
+                <option value="one" selected="selected">One</option>
+                <option value="two">Two</option>
+                <option value="three">Three</option>
+                <option value="four">Four</option>
+                <option value="five">Five</option>
+                <option value="six">Six</option>
+                <option value="seven">Seven</option>
+                <option value="eight">Eight</option>
+                <option value="nine">Nine</option>
+                <option value="ten">Ten</option>
+              </select>
+            </div>
+              
+                    <input class="submit" type="submit" name="Send feedback"value="Submit">
+              
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </body>
+</html>
