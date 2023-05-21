@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      /*   ----- */
+      
+     
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .categories {
+      width: 250px;
+      background-color: #f2f2f2;
+      padding: 30px;
+    }
+
+    .categories ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .categories li {
+      margin-bottom: 10px;
+      width:80px; /* change this if categories is bigger*/
+     
+      border-radius: 5px;
+    }
+
+    .categories li a {
+      color: #333;
+      text-decoration: none;
+      
+    }
+
+    .categories li:hover {
+      text-decoration: none;
+      background: linear-gradient(#6045ea, #8567f7);
+    }
+    .categories li a:hover{
+      color:white;
+    }
+
+    .product-content {
+      padding: 20px;
+      flex-grow: 1;
+    }
+
+    .product-row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .product {
+      flex-basis: 20%;
+      padding: 10px;
+      cursor:pointer;
+      box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+    }
+    .product:hover{
+     background:#f2f2f2; 
+      
+    }
+    
+    .product img {
+      width: 100%;
+      height: 150px;
+    }
+
+    .product-info h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #333;
+      /*-------*/
+       width: 200px;
+  white-space: nowrap;
+      overflow: hidden;   /* HIDE THE TEXT*/
+  text-overflow: ellipsis;
+    }
+
+    .product-info p {
+      margin: 0;
+      color: #777;
+    }
+    .product-info button{
+      width: 150px;
+      height:30px;
+      margin-top:15px;
+      border-radius:5px;
+      font-weight:300;
+      border:none;
+      margin-left:30px;
+      cursor:pointer;
+      background-color:dodgerblue;
+    }
+    .product-info button:hover{
+      background: linear-gradient(#6045ea, #8567f7);
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="categories">
+      <h3 style="border:2px solid red;border:none;">Categories</h3>
+      <ul>
+        <li><a href="canon.html">Canon</a></li>
+        <li><a href="nikon.html">Nikon</a></li>
+        <li><a href="fujifilm.html">Fujifilm</a></li>
+        <li><a href="sony.html">Sony</a></li>
+        <li><a href="kodak.html">Kodak</a></li>
+      </ul>
+    </div>
+    <div class="product-content">
+      <div class="product-row">
+          <div class="product">
+          <img src="product23.jpg" alt="Product 23">
+          <div class="product-info">
+            <h3>KODAK PIXPRO AZ255 Digital Camera</h3></br>
+            <p>Rs.37486.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+          <div class="product">
+          <img src="product24.jpg" alt="Product 24">
+          <div class="product-info">
+            <h3>KODAK PIXPRO AZ405 Digital Camera</h3></br>
+            <p>Rs.27855.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+          <div class="product">
+          <img src="product25.jpg" alt="Product 25">
+          <div class="product-info">
+            <h3>KODAK PIXPRO AZ421 Digital Camera</h3></br>
+            <p>Rs.31114.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+          <div class="product">
+          <img src="product26.jpg" alt="Product 26">
+          <div class="product-info">
+            <h3>KODAK PIXPRO AZ255 Digital Camera</h3></br>
+            <p>Rs.37486.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+          <div class="product">
+          <img src="product27.jpg" alt="Product 27">
+          <div class="product-info">
+            <h3>KODAK PIXPRO AZ652 Digital Camera</h3></br>
+            <p>Rs.32982.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+          <div class="product">
+          <img src="product28.jpg" alt="Product 28">
+          <div class="product-info">
+            <h3>KODAK PIXPRO AZ901 Digital Camera</h3></br>
+            <p>Rs.76004.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+          <div class="product">
+          <img src="product29.jpg" alt="Product 29">
+          <div class="product-info">
+            <h3>KODAK PIXPRO FZ45 Digital Camera</h3></br>
+            <p>Rs.15042.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+          <div class="product">
+          <img src="product30.jpg" alt="Product 30">
+          <div class="product-info">
+            <h3>KODAK PIXPRO FZ55 Digital Camera</h3></br>
+            <p>Rs.18842.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>    
+      </div>
+    </div>
+  </div>
+</body>
+</html>
