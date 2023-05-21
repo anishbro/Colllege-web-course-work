@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      /*   ----- */
+      
+     
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .categories {
+      width: 250px;
+      background-color: #f2f2f2;
+      padding: 30px;
+    }
+
+    .categories ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .categories li {
+      margin-bottom: 10px;
+      width:80px; /* change this if categories is bigger*/
+     
+      border-radius: 5px;
+    }
+
+    .categories li a {
+      color: #333;
+      text-decoration: none;
+      
+    }
+
+    .categories li:hover {
+      text-decoration: none;
+      background: linear-gradient(#6045ea, #8567f7);
+    }
+    .categories li a:hover{
+      color:white;
+    }
+
+    .product-content {
+      padding: 20px;
+      flex-grow: 1;
+    }
+
+    .product-row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .product {
+      flex-basis: 20%;
+      padding: 10px;
+      cursor:pointer;
+      box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+    }
+    .product:hover{
+     background:#f2f2f2; 
+      
+    }
+    
+    .product img {
+      width: 100%;
+      height: 150px;
+    }
+
+    .product-info h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #333;
+      /*-------*/
+       width: 200px;
+  white-space: nowrap;
+      overflow: hidden;   /* HIDE THE TEXT*/
+  text-overflow: ellipsis;
+    }
+
+    .product-info p {
+      margin: 0;
+      color: #777;
+    }
+    .product-info button{
+      width: 150px;
+      height:30px;
+      margin-top:15px;
+      border-radius:5px;
+      font-weight:300;
+      border:none;
+      margin-left:30px;
+      cursor:pointer;
+      background-color:dodgerblue;
+    }
+    .product-info button:hover{
+      background: linear-gradient(#6045ea, #8567f7);
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="categories">
+      <h3 style="border:2px solid red;border:none;">Categories</h3>
+      <ul>
+        <li><a href="canon.html">Canon</a></li>
+        <li><a href="nikon.html">Nikon</a></li>
+        <li><a href="fujifilm.html">Fujifilm</a></li>
+        <li><a href="sony.html">Sony</a></li>
+        <li><a href="kodak.html">Kodak</a></li>
+      </ul>
+    </div>
+    <div class="product-content">
+      <div class="product-row">
+        <div class="product">
+          <img src="product1.png" alt="Product 1">
+          <div class="product-info">
+            <h3>EOS R50 (RF-S18-45mm f/4.5-6.3 IS STM & RF-S55-210mm f/5-7.1 IS STM)</h3></br>
+            <p>Rs.97995.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="product2.png" alt="Product 2">
+          <div class="product-info">
+            <h3>EOS R8 (RF24-50mm f/4.5-6.3 IS STM)</h3></br>
+            <p> Rs.161995.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="product3.png" alt="Product 3">
+          <div class="product-info">
+            <h3>EOS R50 (RF-S18-45mm f/4.5-6.3 IS STM)</h3></br>
+            <p>Rs.75995.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="product4.png" alt="Product 4">
+          <div class="product-info">
+            <h3>EOS R6 Mark II (RF24-105mm f/4-7.1 IS STM)
+</h3></br>
+            <p>Rs.271995.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="product5.png" alt="Product 5">
+          <div class="product-info">
+            <h3>EOS R6 Mark II (RF24-105mm f/4L IS USM)
+</h3></br>
+            <p>Rs.343995.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+         <div class="product">
+          <img src="product6.png" alt="Product 6">
+          <div class="product-info">
+            <h3>EOS R10 (RF-S18-150mm f/3.5-6.3 IS STM)
+</h3></br>
+            <p>Rs.119995.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+                 <div class="product">
+          <img src="product7.png" alt="Product 7">
+          <div class="product-info">
+            <h3>EOS R7 (RF-S18-150mm f/3.5-6.3 IS STM)
+</h3></br>
+            <p>Rs.175995.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+                 <div class="product">
+          <img src="product8.png" alt="Product 8">
+          <div class="product-info">
+            <h3>EOS R10 (RF-S18-45mm f/4.5-6.3 IS STM)
+</h3></br>
+            <p>Rs.92995.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+                 <div class="product">
+          <img src="product9.jpg" alt="Product 9">
+          <div class="product-info">
+            <h3>Nikon Z6 Mirrorless DSLR Camera
+</h3></br>
+            <p>Rs.215000</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+                 <div class="product">
+          <img src="product10.jpg" alt="Product 10">
+          <div class="product-info">
+            <h3>Nikon D810 DSLR Camera
+</h3></br>
+            <p>Rs.31500</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+                 <div class="product">
+          <img src="product11.jpg" alt="Product 11">
+          <div class="product-info">
+            <h3>Nikon D5 DSLR Camera
+</h3></br>
+            <p>Rs.693000</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+                 <div class="product">
+          <img src="product12.jpg" alt="Product 12">
+          <div class="product-info">
+            <h3>Nikon D850 DSLR Camera
+</h3></br>
+            <p>Rs.375000</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+                 <div class="product">
+          <img src="product13.jpg" alt="Product 13">
+          <div class="product-info">
+            <h3>FUJIFILM GFX 50S II MEDIUM FORMAT MIRRORLESS CAMERA WITH 35-70MM LENS KIT</h3></br>
+            <p>Rs.445990</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+                 <div class="product">
+          <img src="product14.jpg" alt="Product 14">
+          <div class="product-info">
+            <h3>FUJIFILM X100V DIGITAL CAMERA - BLACK</h3></br>
+            <p>Rs.169999</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+                 <div class="product">
+          <img src="product15.jpg" alt="Product 15">
+          <div class="product-info">
+            <h3>FUJIFILM X100V DIGITAL CAMERA - SILVER</h3></br>
+            <p>Rs.169999</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+                 <div class="product">
+          <img src="product16.jpg" alt="Product 16">
+          <div class="product-info">
+            <h3>FUJIFILM X-H2S MIRRORLESS CAMERA</h3></br>
+            <p>Rs.222990</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+                 <div class="product">
+          <img src="product17.jpg" alt="Product 17">
+          <div class="product-info">
+            <h3>Sony Alpha A7R Mark II/ ILCE-7RM2</h3></br>
+            <p>Rs.515000</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+                 <div class="product">
+          <img src="product18.jpg" alt="Product 18">
+          <div class="product-info">
+            <h3>Sony Alpha a7S II/ ILCE-7SM2</h3></br>
+            <p>Rs.366000</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+                 <div class="product">
+          <img src="product19.jpg" alt="Product 19">
+          <div class="product-info">
+            <h3>Sony Alpha a7R/ ILCE-7R</h3></br>
+            <p>Rs.302000</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+                 <div class="product">
+          <img src="product20.jpg" alt="Product 20">
+          <div class="product-info">
+            <h3>Sony A7 II/ ILCE-7M2</h3></br>
+            <p>Rs.290000</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+
+           <div class="product">
+          <img src="product21.jpg" alt="Product 21">
+          <div class="product-info">
+            <h3>Sony A6500/ILCE-6500</h3></br>
+            <p>Rs.198000</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+
+          <div class="product">
+          <img src="product22.jpg" alt="Product 22">
+          <div class="product-info">
+            <h3>Sony A6300/ILCE-6300L</h3></br>
+            <p>Rs.163500</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+          <div class="product">
+          <img src="product23.jpg" alt="Product 23">
+          <div class="product-info">
+            <h3>KODAK PIXPRO AZ255 Digital Camera</h3></br>
+            <p>Rs.37486.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+          <div class="product">
+          <img src="product24.jpg" alt="Product 24">
+          <div class="product-info">
+            <h3>KODAK PIXPRO AZ405 Digital Camera</h3></br>
+            <p>Rs.27855.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+          <div class="product">
+          <img src="product25.jpg" alt="Product 25">
+          <div class="product-info">
+            <h3>KODAK PIXPRO AZ421 Digital Camera</h3></br>
+            <p>Rs.31114.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+          <div class="product">
+          <img src="product26.jpg" alt="Product 26">
+          <div class="product-info">
+            <h3>KODAK PIXPRO AZ255 Digital Camera</h3></br>
+            <p>Rs.37486.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+          <div class="product">
+          <img src="product27.jpg" alt="Product 27">
+          <div class="product-info">
+            <h3>KODAK PIXPRO AZ652 Digital Camera</h3></br>
+            <p>Rs.32982.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+          <div class="product">
+          <img src="product28.jpg" alt="Product 28">
+          <div class="product-info">
+            <h3>KODAK PIXPRO AZ901 Digital Camera</h3></br>
+            <p>Rs.76004.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+          <div class="product">
+          <img src="product29.jpg" alt="Product 29">
+          <div class="product-info">
+            <h3>KODAK PIXPRO FZ45 Digital Camera</h3></br>
+            <p>Rs.15042.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>
+          <div class="product">
+          <img src="product30.jpg" alt="Product 30">
+          <div class="product-info">
+            <h3>KODAK PIXPRO FZ55 Digital Camera</h3></br>
+            <p>Rs.18842.00</p>
+            <button>Add to Cart</button></br>
+            <button>Buy Now</button>
+          </div>
+        </div>    
+      </div>
+    </div>
+  </div>
+</body>
+</html>
